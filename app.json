@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jiayong/controler/control",
+    "pages/jiayong/aircondition/aircondition",
+    "pages/public/search/search",
+    "pages/public/public",
+    "pages/authorize/authorize",
+    "pages/me/me",
+    "pages/jiayong/jiayong",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Prototype",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "gray",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1afa29",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home_s.png"
+      },
+      {
+        "pagePath": "pages/jiayong/jiayong",
+        "text": "家用",
+        "iconPath": "images/tabBar/jiayong.png",
+        "selectedIconPath": "images/tabBar/jiayong_s.png"
+      },
+      {
+        "pagePath": "pages/public/public",
+        "text": "公用",
+        "iconPath": "images/tabBar/public.png",
+        "selectedIconPath": "images/tabBar/public_s.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tabBar/me.png",
+        "selectedIconPath": "images/tabBar/me_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

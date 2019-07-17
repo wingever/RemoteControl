@@ -1,0 +1,40 @@
+<!--pages/airCondition/airCondition.wxml-->
+<!--pages/control/control.wxml-->
+<view class='container'>
+  <view class='top'>
+    <button>
+      <image src="../../../images/control/switch.png"></image>
+    </button>
+
+  </view>
+  <view class='center'>
+
+    <view class='center-left'>
+      <view class='top'>
+      <button><image src='../../../images/control/强风 (1).png'></image></button>
+      <button><image src='../../../images/control/弱风 (1).png'></image></button>
+      <button><image src='../../../images/control/微风.png'></image></button>
+      </view>
+      <view class='center'>
+      <button><image src='../../../images/control/制冷 (1).png'></image></button>
+      <button><image src='../../../images/control/制热 (1).png'></image></button>
+      <button><image src='../../../images/control/自动 (2).png'></image></button>
+      </view>
+      <view class='bottom'>
+      <button><image src='../../../images/control/上下摆风 (1).png'></image></button>
+      <button><image src='../../../images/control/左右摆风 (1).png'></image></button>
+      </view>
+    </view>
+    <view class='center-right'>
+      <button class='center-right-top'>
+        <image src='../../../images/control/add.png'></image>
+      </button>
+      <view>-</view>
+      <view>加/减</view>
+      <view>-</view>
+      <button class='center-rght-bottom'>
+        <image src='../../../images/control/dec.png'></image>
+      </button>
+    </view>
+  </view>
+</view>

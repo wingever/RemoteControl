@@ -1,0 +1,11 @@
+<!--pages/main/main.wxml-->
+<view class="topbar" >
+  <view id='main_bar'>
+    <view class='main'><image class="avatar" src='{{userInfo.avatarUrl}}'></image><text>{{userInfo.nickName}}</text></view>
+    <view class='main'>我的设备</view>
+    <view class='main'>已开启设备</view>
+    <view class='main'>离家</view>
+    <view class='main'>订单</view>
+    <view class='main'>收藏</view>
+  </view>
+</view>

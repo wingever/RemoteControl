@@ -1,0 +1,31 @@
+/* pages/search/ssearch.wxss */
+.icon{
+  margin:50rpx;
+}
+.img{
+  width:140rpx;
+  height: 140rpx;
+  border-radius: 30%;
+}
+.img_main{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 40%;
+  position: absolute;
+  margin-top:40%;
+}
+.left{
+  margin-left:40%;
+}
+.center{
+  margin-left: 60%;
+}
+.right{
+  margin-left: 75%;
+}
+.right .icon{
+  float: left;
+}
+.text{
+  font-size: 30rpx;
+}

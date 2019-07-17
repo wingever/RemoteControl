@@ -1,0 +1,30 @@
+<!--pages/public/search/search.wxml-->
+ <view class="nav_title">
+      <view class="nav_tab">
+      <view wx:for="{{list}}" wx:key="unique" class="{{selected==index?'show':'hidden'}}" data-index='{{index}}' bindtap="selected">{{item}}
+      <view class="{{selected==index?'nav_underline':''}}"></view>
+      </view>
+      </view>
+      <!-- tab框显示内容 -->
+      <view wx:if="{{selected == 0}}">
+        <view class="title">
+        <text class="title-v1">洗衣点</text>
+          <view wx:for="{{laundry}}" wx:key="unique">
+            <view class="laundry"><image src="{{item.image}}"></image><text class="add">{{item.address}}</text></view>
+          </view>
+          </view>
+
+        <view class="title">
+        <text class="title-v2">洗衣机</text>
+        <view wx:for="{{machine}}" wx:key="unique">
+          <view class="machine">
+          <image src="{{item.image}}"></image><text class="name">{{item.name}}</text>
+          </view>
+        </view>
+        </view>
+      </view>
+      <view class="search" wx:if="{{selected == 1}}">
+        <text class="searchtips">目前推荐的洗衣机都在使用中！点击查看附近更多洗衣点，可手动选择哦~</text>
+        <button>查看附近</button>
+      </view>
+</view> 

@@ -1,0 +1,21 @@
+<!--pages/public/public.wxml-->
+<view class="tapbar" style="background-image: url('../../images/background/public.jpg');">
+  <view class="main_bar">
+    <view class='main_body' bindtap='go'>
+      <view ><image src='../../images/public/cloth.png'></image>
+      <span>洗衣</span>
+      <span>Wash Clothes</span>
+      </view>
+    </view>
+    <view class='main_body' bindtap='go'>
+      <view><image src='../../images/public/shoes.png'></image></view>
+      <view>洗鞋</view>
+      <view>Wash Shoes</view>
+    </view>
+    <view class='main_body' bindtap='go'>
+      <view><image src='../../images/public/dry.png'></image></view>
+      <view>烘干</view>
+      <view>Dry</view>
+    </view>
+  </view>
+</view>

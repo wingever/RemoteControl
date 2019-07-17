@@ -1,0 +1,64 @@
+/* pages/public/search/search.wxss */
+.nav_tab{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+}
+.hidden{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#333333;
+  font-size:28rpx;
+  opacity: 0.6;
+}
+.show{
+  line-height:100rpx;
+  text-align:center;
+  color:rgb(69, 220, 240);
+  flex:1;
+  font-size:28rpx;
+}
+.nav_underline{
+  background:rgb(69, 220, 240);
+  width:50%;
+  height:6rpx;
+  margin-top:-10rpx;
+  margin-left:95rpx;
+  border-radius:8rpx;
+}
+.title-v1,.title-v2{
+  font-size: 50rpx;
+  font-style: italic;
+}
+.laundry ,.machine{
+  position: relative;
+  float: left;
+  background: rgb(223, 239, 241);
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+}
+.add ,.name{
+float: left;
+}
+image{
+  float: left;
+  width:100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-right:15rpx;
+}
+.searchtips{
+  position: absolute;
+  margin:55% 15%;
+  width: 70%;
+}
+button{
+  position: absolute;
+  margin:80% 25%;
+  width: 50%;
+}

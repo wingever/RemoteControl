@@ -1,0 +1,20 @@
+/* pages/public/public.wxss */
+.main_bar{
+  padding:25rpx;
+}
+.main_body{
+  display: flex;
+  justify-content: center;
+  width: 700rpx;
+  height: 280rpx;
+  border:black solid 1px;
+  overflow: hidden;
+  margin-top:50rpx;
+  line-height: 280rpx;
+}
+image{
+  margin-top:40rpx;
+  float: left;
+  height: 200rpx;
+  width: 200rpx;
+}

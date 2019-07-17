@@ -1,0 +1,34 @@
+<!--pages/control/control.wxml-->
+<view class='container'>
+  <view class='top'>
+    <button>
+      <image src="../../../images/control/switch.png"></image>
+    </button>
+
+  </view>
+  <view class='center'>
+
+    <view class='center-left'>
+      <button class='center-left-top'>
+        <image src='../../../images/control/lease.png'></image>
+      </button>
+      <view>-</view>
+      <view>节目</view>
+      <view>-</view>
+      <button>
+        <image src='../../../images/control/下拉.png'></image>
+      </button>
+    </view>
+    <view class='center-right'>
+      <button class='center-right-top'>
+        <image src='../../../images/control/add.png'></image>
+      </button>
+      <view>-</view>
+      <view>音量</view>
+      <view>-</view>
+      <button class='center-rght-bottom'>
+        <image src='../../../images/control/dec.png'></image>
+      </button>
+    </view>
+  </view>
+</view>

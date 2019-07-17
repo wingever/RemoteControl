@@ -1,0 +1,13 @@
+<!--pages/search/ssearch.wxml-->
+<view class="topbar">
+  <view class="main_bar">
+    <view class='side'>
+    <image class='img_main' src='../../images/jiayong/center.png'></image>
+      <view class='left icon'><image class='img' src='../../images/jiayong/bingxiang.png'></image><span class='text'>冰箱</span></view>
+      <view bindtap="gotv" class='center icon'><image class='img' src='../../images/jiayong/tv.png'></image><span class='text'>电视</span></view>
+      <view bindtap='goaircondition' class='right icon'><image class='img' src='../../images/jiayong/kongtiao.png'></image><span class='text'>空调</span></view>
+      <view class='center icon'><image class='img' src='../../images/jiayong/washing.png'></image><span class='text'>洗衣机</span></view>
+      <view class='left icon'><image class='img' src='../../images/jiayong/other.png'></image><span class='text'>其他</span></view>
+    </view>
+  </view> 
+</view>

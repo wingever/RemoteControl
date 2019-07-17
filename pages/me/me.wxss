@@ -1,0 +1,24 @@
+/* pages/main/main.wxss */
+.topbar{
+  height: 100%;
+  width:100%;
+}
+#main_bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300rpx;
+}
+.main{
+  width: 300rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border: black solid 1rpx;
+}
+.avatar{
+  border-radius: 50%;
+  width: 120rpx;
+  height: 120rpx;
+}

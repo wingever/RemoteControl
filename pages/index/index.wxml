@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="top-bar" >
+<swiper class="u-wrp-bnr" indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:for-index="index" wx:key="unique">
+    <swiper-item>
+      <image src="{{item.url}}" class="u-img-slide" mode="aspectFill"></image>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='container'>
+  <view class="nav_left">
+    <view class="nav_left_items {{curNav == 1 ? 'active' : ''}}" bindtap="switchRightTab" data-id = "1">热门资讯     </view>
+    <view class="nav_left_items {{curNav == 2 ? 'active' : ''}}" bindtap="switchRightTab" data-id = "2">最新家电 </view>
+    <view class="nav_left_items {{curNav == 3 ? 'active' : ''}}" bindtap="switchRightTab" data-id = "3">创新产品</view>
+  </view>
+  <view class="nav_right">
+    <view wx:if = "{{curNav == 1}}">
+      <view class="nav_right_items" wx:for="{{hot}}" wx:key="unique">
+        <view>{{item.text}}</view>
+      </view>
+    </view>
+     <view wx:if = "{{curNav == 2}}">
+      <view class="nav_right_image" wx:for="{{image}}">
+        <image class="image" src="../../images/index/{{index+1}}.png"></image>
+      </view>
+      </view>
+    </view>
+     <view wx:if = "{{curNav == 3}}">
+      <view class="nav_right_items">
+        <view>腾讯</view>
+      </view>
+  </view>
+</view>
